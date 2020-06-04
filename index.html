@@ -20,12 +20,19 @@
         <div class="card col-md-6  mx-auto">
            <form id="survey-form" class="col-md-10 mx-auto mt-3">
                 <div class="form-group">
-                  <input type="text" class="form-control" id="name">
+                  <label for="name" id="name-label">name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Type your name">
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control" id="email">
+                  <label for="email" id="email-label">email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Type your email">
+                </div>
+                <div class="form-group">
+                  <label for="number" id="number-label">number</label>
+                  <input type="number" min="2" max="10" class="form-control" id="number" placeholder="Type your number"> 
                 </div>
             </form>
+            
         </div>
        
       </div>
